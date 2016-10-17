@@ -11,9 +11,11 @@ $game->players = ['A', 'B', 'C', 'D'];
 $game->start();
 
 
+
 To get results:
 
 $game->print_result();
+
 
 
 Players that are highlighted with green are the winner!
