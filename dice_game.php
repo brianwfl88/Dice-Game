@@ -4,9 +4,9 @@ Class Dice {
 
 	public $players = array();
 	public $player_dice = 6;
-	public $result = array();
-	public $displacement = array();
 
+	private $result = array();
+	private $displacement = array();
 	private $dice_count = array();
 	private $round = 1;
 
