@@ -5,12 +5,14 @@ A game of rolling dice
 How to play:
 
 To start a game:
+
 $game = new Dice();
 $game->players = ['A', 'B', 'C', 'D'];
 $game->start();
 
 
 To get results:
+
 $game->print_result();
 
 
